@@ -8,6 +8,8 @@ import "firebase/auth";
 import "firebase/firestore";
 
 import * as firebaseui from 'firebaseui';
+console.log('hi', firebase);
+
 
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
@@ -36,7 +38,7 @@ const uiConfig = {
     firebase.auth.EmailAuthProvider.PROVIDER_ID
   ],
   callbacks: {
-    signInSuccessWithAuthResult: function(authResult, redirectUrl){
+    signInSuccessWithAuthResult: function(authResult:any , redirectUrl: any){
       // Handle sign-in.
       // Return false to avoid redirect.
       return false;
