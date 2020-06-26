@@ -1,0 +1,25 @@
+{
+  "name": "firebase-codelabs-web",
+  "version": "1.0.0",
+  "description": "Check out each step: * https://stackblitz.com/edit/wtm-start * https://stackblitz.com/edit/wtm-checkpoint1 * https://stackblitz.com/edit/wtm-checkpoint2 * https://stackblitz.com/edit/wtm-checkpoint3 * https://stackblitz.com/edit/wtm-next-steps",
+  "main": "index.js",
+  "dependencies": {
+    "@firebase/util": "^0.2.50",
+    "firebase": "^7.15.5",
+    "firebaseui": "^4.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maltewirz/firebase-codelabs-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maltewirz/firebase-codelabs-web/issues"
+  },
+  "homepage": "https://github.com/maltewirz/firebase-codelabs-web#readme"
+}
