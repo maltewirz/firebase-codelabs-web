@@ -9,7 +9,7 @@ service cloud.firestore {
           && "timestamp" in request.resource.data
     }
     match /attendees/{userId} {
-      allow read: if request.auth.uid != null;
+      allow read: if true;
       allow write: if request.auth.uid == userId
         && "attending" in request.resource.data;
     }

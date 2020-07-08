@@ -149,9 +149,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   .collection('attendees')
   .where("attending", "==", true)
   .onSnapshot(snap => {
-  const newAttendeeCount = snap.docs.length;
-
-  numberAttending.innerHTML = newAttendeeCount+' people going'; 
+    const newAttendeeCount = snap.docs.length;
+    numberAttending.innerHTML = newAttendeeCount+' people going'; 
   })
 
   // Listen for attendee list
