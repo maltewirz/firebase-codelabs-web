@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "@firebase/util": "^0.2.50",
+    "@firebase/util": "^0.3.4",
     "firebase": "^7.15.5",
     "firebaseui": "^4.5.1",
     "ts-loader": "^7.0.5",
